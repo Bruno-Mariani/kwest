@@ -21,9 +21,15 @@ provider:
           Resource:
             - Fn::GetAtt: [ UsersTable, Arn ]
   environment:
-    USERS_TABLE: ${self:custom.tableName}
+    USERS_TABLE: ${self:service}-userTable-${sls:stage}
 
 functions:
+  createUser:
+    handler: createUser.createUser
+    events: 
+      - httpApi:
+        path: /
+        method: post
   api:
     handler: index.handler
     events:
