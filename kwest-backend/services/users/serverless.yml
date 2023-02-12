@@ -1,0 +1,9 @@
+service: users
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  
+functions:
+  createUser: ${file(functions/createUser/index.yml):createUser}

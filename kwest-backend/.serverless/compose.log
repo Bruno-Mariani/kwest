@@ -1,0 +1,33 @@
+
+Deploying to stage dev
+users › waiting
+artists › waiting
+users › deploying
+artists › deploying
+users › Running "serverless deploy --stage dev"
+artists › Running "serverless deploy --stage dev"
+users › Deploying users to stage dev (us-east-1)
+artists › Deploying artists to stage dev (us-east-1)
+users › No changes to deploy. Deployment skipped. (6s)
+users › Monitor all your API routes with Serverless Console: run "serverless --console"
+users › no changes
+artists › ✔ Service deployed to stack artists-dev (118s)
+artists › endpoint: POST - https://3f6p0m91v4.execute-api.us-east-1.amazonaws.com/artists
+artists › functions:
+artists ›   createArtist: artists-dev-createArtist (826 B)
+artists › Need a better logging experience than CloudWatch? Try our Dev Mode in console: run "serverless --console"
+artists › Running "serverless info --verbose --stage dev"
+artists › service: artists
+artists › stage: dev
+artists › region: us-east-1
+artists › stack: artists-dev
+artists › endpoint: POST - https://3f6p0m91v4.execute-api.us-east-1.amazonaws.com/artists
+artists › functions:
+artists ›   createArtist: artists-dev-createArtist
+artists › 
+artists › Stack Outputs:
+artists ›   CreateArtistLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:403698688455:function:artists-dev-createArtist:1
+artists ›   HttpApiId: 3f6p0m91v4
+artists ›   ServerlessDeploymentBucketName: artists-dev-serverlessdeploymentbucket-1ol9zej6vwgwl
+artists ›   HttpApiUrl: https://3f6p0m91v4.execute-api.us-east-1.amazonaws.com
+artists › deployed

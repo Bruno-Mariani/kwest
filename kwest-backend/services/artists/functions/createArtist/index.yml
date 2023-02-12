@@ -1,0 +1,4 @@
+createArtist:
+  handler: functions/createArtist/index.default
+  events:
+    - httpApi: 'POST /artists'

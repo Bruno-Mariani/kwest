@@ -1,0 +1,9 @@
+service: artists
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  
+functions:
+  createArtist: ${file(functions/createArtist/index.yml):createArtist}

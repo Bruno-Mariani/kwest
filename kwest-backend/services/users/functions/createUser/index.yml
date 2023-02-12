@@ -1,0 +1,4 @@
+createUser:
+  handler: functions/createUser/index.default
+  events:
+    - httpApi: 'GET /users'

@@ -1,0 +1,29 @@
+{
+  "service": {
+    "id": "yxlq0iw"
+  },
+  "components": {
+    "users": {
+      "state": {
+        "detectedFrameworkVersion": "3.27.0"
+      },
+      "outputs": {
+        "CreateUserLambdaFunctionQualifiedArn": "arn:aws:lambda:us-east-1:403698688455:function:users-dev-createUser:3",
+        "HttpApiId": "5bd7i5hur0",
+        "ServerlessDeploymentBucketName": "users-dev-serverlessdeploymentbucket-2cyku41en7n7",
+        "HttpApiUrl": "https://5bd7i5hur0.execute-api.us-east-1.amazonaws.com"
+      }
+    },
+    "artists": {
+      "state": {
+        "detectedFrameworkVersion": "3.27.0"
+      },
+      "outputs": {
+        "CreateArtistLambdaFunctionQualifiedArn": "arn:aws:lambda:us-east-1:403698688455:function:artists-dev-createArtist:1",
+        "HttpApiId": "3f6p0m91v4",
+        "ServerlessDeploymentBucketName": "artists-dev-serverlessdeploymentbucket-1ol9zej6vwgwl",
+        "HttpApiUrl": "https://3f6p0m91v4.execute-api.us-east-1.amazonaws.com"
+      }
+    }
+  }
+}
